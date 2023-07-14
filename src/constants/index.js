@@ -19,11 +19,14 @@ import {
     ZielFintechLogo,
     tesla,
     shopify,
-    carrent,
     jobit,
     tripguide,
     threejs,
     Ideal,
+    news,
+    foodPage,
+    authApp,
+    portfolio
   } from "../assets";
   
 
@@ -109,96 +112,104 @@ import {
 
   ];
   
- export const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
   
  export const Projects = [
     {
-      name: "Car Rent",
+      name: "News App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Stay informed effortlessly with our news app. Access a wide range of news articles from various sources using our intuitive interface and curated content, keeping you updated on the latest stories in a concise and convenient way.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "News-API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: news,
+      source_code_link: "https://github.com/Aman-web-dev/News-App",
     },
     {
-      name: "Job IT",
+      name: "Foodie",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Indulge in a seamless food ordering experience with our cutting-edge full stack web app. Enjoy modern features like a user-friendly cart system and instant 'Order Now' functionality, satisfying your cravings in just a few clicks.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Express.JS",
           color: "pink-text-gradient",
         },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: foodPage,
+      source_code_link: "https://github.com/Aman-web-dev/Foodie",
     },
     {
-      name: "Trip Guide",
+      name: "Portfolio",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Experience the immersive world of my personal portfolio website, crafted with cutting-edge tools. Combining the power of Three.js, React Three Fiber, Tailwind CSS, and Framer Motion, explore a captivating showcase of my work in stunning 3D.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Three JS",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Tailwind CSS",
           color: "pink-text-gradient",
         },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+        {
+          name: "Framer_Motion",
+          color: "pink-text-gradient",
+        },
+            ],
+      image: portfolio,
+      source_code_link: "https://github.com/Aman-web-dev/3D-Portfolio",
+    },
+    {
+      name: "User Authentication",
+      description:
+      "Discover the power of MERN stack with our user authentication app. Securely manage user accounts, implement authentication features, and explore the seamless integration of MongoDB, Express.js, React, and Node.js for robust web development.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Express.JS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NodeJS",
+          color: "pink-text-gradient",
+        },
+            ],
+      image: authApp,
+      source_code_link: "https://github.com/Aman-web-dev/Customer-Authentication",
     },
   ];
   

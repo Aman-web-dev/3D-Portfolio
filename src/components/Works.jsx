@@ -29,7 +29,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl mx-auto sm:w-[360px] w-full'
       >
         <div className='relative w-full h-[230px]'>
           <img
@@ -74,15 +74,15 @@ const ProjectCard = ({
 
 const Works = () => {
   return (
-    <div className=' mx-[15%] w-[80%]'>
+    <div>
     
 <motion.div variants={textVariant()}>
-  <p className={Styles.sectionSubText}>What I built In 1 Year</p>
+  <p className={`${Styles.sectionSubText},mx-auto`}>What I built In 1 Year</p>
 <h2 className={Styles.sectionHeadText}>Projects</h2>
   </motion.div>
   
 
-  <div className="w-full flex w-[80%]">
+  <div className="w-full flex ">
 <motion.p
 className='mt-3 text-secondary text-[17px]  max-w-3xl  leading-[30px]'
 variants={fadeIn("","",0.1,1 )}
@@ -100,7 +100,7 @@ In my project section, you'll find a collection of endeavors that represent my c
   </div>
 
 
-  <div className='mt-20 flex flex-wrap gap-7 '>
+  <div className="mt-20 flex  flex-wrap gap-7 ">
 
     {Projects.map((project,index)=>(
 
@@ -117,4 +117,4 @@ In my project section, you'll find a collection of endeavors that represent my c
   )
 }
 
-export default Works
+export default SectionWrapper(Works, "")
