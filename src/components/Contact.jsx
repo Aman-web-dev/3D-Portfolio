@@ -5,7 +5,7 @@ import Styles from '../styles';
 import { EarthCanvas } from "./canvas";
 import SectionWrapper from '../assets/hof';
 import { slideIn } from "../utils/motion";
-
+import data from "./config"
 
 
 // template_2wpl47j  template id
@@ -38,8 +38,8 @@ const Contact = () => {
 
     emailjs
       .send(
-       'service_6jobmth', 
-         'template_2wpl47j',
+       data.service_id,
+       data.template_id,
         {
           from_name: form.name,
           to_name: "Aman Kumar",
@@ -47,7 +47,7 @@ const Contact = () => {
           to_email: "amanzhx1234@gmail.com",
           message: form.message,
         },
-        '3u_xKyE2vSEo2tqj0'
+        data.public_key
       )
       .then(
         () => {
