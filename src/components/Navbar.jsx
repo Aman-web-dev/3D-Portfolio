@@ -6,8 +6,9 @@ import {navLinks} from "../constants/index";
 import {logo } from "../assets";
 import {close } from "../assets";
 import {menu } from "../assets";
-import Styles  from "../Styles"
 
+
+import Styles from "../styles";
 
 
 

@@ -1,12 +1,16 @@
 import React from 'react';
-import { Tilt } from "react-Tilt";
+
+import { Tilt } from 'react-tilt';
 import {motion} from 'framer-motion';
 
 
 import  SectionWrapper  from '../assets/hof/index';
 
 
-import Styles from '../Styles';
+import Styles from '../styles';
+
+
+
   import {Services} from '../constants/index';
   import {fadeIn, textVariant} from '../utils/motion'
 

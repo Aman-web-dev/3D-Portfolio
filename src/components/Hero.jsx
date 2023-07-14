@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
-import Styles  from "../Styles"
+
+
+import  Styles  from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {

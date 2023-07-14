@@ -88,7 +88,7 @@ import {
       date: "June 2022  - September 2022",
       points: [
         "I Worked as an Intern at Z-first ",
-        "Managed MIS report and kept a Record of how Loan Disbursement Summary",
+        "Managed MIS report and kept a Record of  Loan Disbursement Summary",
         "Coordinated with a Team of More than 100 peoples To Disburse Loan and Managed Nach Updation.",
         
       ],
@@ -109,7 +109,7 @@ import {
 
   ];
   
-  const testimonials = [
+ export const testimonials = [
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -136,7 +136,7 @@ import {
     },
   ];
   
-  const projects = [
+ export const Projects = [
     {
       name: "Car Rent",
       description:
@@ -216,4 +216,3 @@ import {
       title: "Contact",
     },
   ];
-  export default  { testimonials, projects} ; 
