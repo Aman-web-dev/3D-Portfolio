@@ -3,7 +3,6 @@ import {motion} from 'framer-motion'
 
 import Styles from '../../Styles'
 
-
 import { staggerContainer } from '../../utils/motion'
 
 

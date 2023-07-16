@@ -1,7 +1,7 @@
 import React from "react";
 import { Tilt } from "react-tilt";
 import {motion} from 'framer-motion';
-import Styles from '../styles';
+import Styles from '../Styles';
 import { github } from '../assets';
 import {fadeIn, textVariant} from '../utils/motion';
 

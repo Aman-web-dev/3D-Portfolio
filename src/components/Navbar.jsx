@@ -8,7 +8,7 @@ import {close } from "../assets";
 import {menu } from "../assets";
 
 
-import Styles from "../styles";
+import Styles from '../Styles';
 
 
 
