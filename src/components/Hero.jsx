@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Tilt } from "react-tilt";
 
 
-import  Styles  from "../styles";
+import Styles from '../Styles';;
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
