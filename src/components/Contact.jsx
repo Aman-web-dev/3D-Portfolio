@@ -5,7 +5,7 @@ import Styles from '../Styles';
 import { EarthCanvas } from "./canvas";
 import SectionWrapper from '../assets/hof';
 import { slideIn } from "../utils/motion";
-import data from "./config"
+import Data from "./config";
 
 
 // template_2wpl47j  template id
