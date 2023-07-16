@@ -6,13 +6,11 @@ import { EarthCanvas } from "./canvas";
 import SectionWrapper from '../assets/hof';
 import { slideIn } from "../utils/motion";
 
+import Data from "./Pass";
 
-import Data from "./config";
 
 
-// template_2wpl47j  template id
-// service_6jobmth service id 
-// 3u_xKyE2vSEo2tqj0 public key 
+
 
 const Contact = () => {
   const formRef = useRef();
