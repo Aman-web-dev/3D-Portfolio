@@ -7,7 +7,7 @@ import {motion} from 'framer-motion';
 import  SectionWrapper  from '../assets/hof/index';
 
 
-import Styles from '../styles';
+import Styles from '../Styles';
 
 
 
