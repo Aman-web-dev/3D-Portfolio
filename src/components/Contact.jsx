@@ -5,7 +5,7 @@ import Styles from '../Styles';
 import { EarthCanvas } from "./canvas";
 import SectionWrapper from '../assets/hof';
 import { slideIn } from "../utils/motion";
-
+import {StarsCanvas} from "./canvas";
 import Data from "./Pass";
 
 
@@ -134,6 +134,7 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      <StarsCanvas/>
     </div>
   );
 };

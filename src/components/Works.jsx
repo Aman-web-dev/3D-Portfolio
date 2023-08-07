@@ -5,13 +5,11 @@ import Styles from '../Styles';
 import { github } from '../assets';
 import {fadeIn, textVariant} from '../utils/motion';
 
-// import { Projects } from '../../src/constants/index';
+import { Projects } from '../../src/constants/index';
 
-import { Projects } from '../constants';
 
 
 import SectionWrapper from '../assets/hof';
-
 
 const ProjectCard = ({
   index,
@@ -22,16 +20,15 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary p-5 rounded-2xl mx-auto sm:w-[360px] w-full'
+        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
       >
-        <div className='relative w-full h-[230px]'>
+    <>        <div className='relative w-full h-[230px]'>
           <img
             src={image}
             alt='project_image'
@@ -67,54 +64,42 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
-    </motion.div>
+        </>
+
+       </Tilt>
   );
 };
 
 const Works = () => {
   return (
-    <div>
-    
-<motion.div variants={textVariant()}>
-  <p className={`${Styles.sectionSubText},mx-auto`}>What I built In 1 Year</p>
-<h2 className={Styles.sectionHeadText}>Projects</h2>
-  </motion.div>
-  
+    <>
+      <p variants={textVariant()}>
+        <p className={`${Styles.sectionSubText} `}>My work</p>
+        <h2 className={`${Styles.sectionHeadText}`}>Projects.</h2>
+      </p>
 
-  <div className="w-full flex ">
-<motion.p
-className='mt-3 text-secondary text-[17px]  max-w-3xl  leading-[30px]'
-variants={fadeIn("","",0.1,1 )}
->
+      <div className='w-full flex'>
+        <p
+          // variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        >
+          Following Projects showcases my skills and experience through
+          real-world examples of my work. Each project is briefly described with
+          links to code repositories and live demos in it. It reflects my
+          ability to solve complex problems, work with different technologies,
+          and manage Projects effectively.
+        </p>
+      </div>
 
-
-In my project section, you'll find a collection of endeavors that represent my commitment to improving my skills. These projects were born out of a desire to learn and grow. I embarked on this journey by utilizing resources such as YouTube, Bootstrap, and ChatGPT to build visually appealing designs with interactive features. Although these projects are still evolving, I am dedicated to continuous improvement and hard work. Come along on this exciting journey of progress, as I strive to create captivating experiences that make a lasting impression.
-
-
-
-
-</motion.p>
-
-
-  </div>
-
-
-  <div className="mt-20 flex  flex-wrap gap-7 ">
-
-    {Projects.map((project,index)=>(
-
-      <ProjectCard key={`project-${index}`}
-      {...project}
-      
-      />
-    ))} 
+      <div className='mt-20 flex flex-wrap gap-7'>
+        {Projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        ))}
+      </div>
+    </>
+  );
+};
 
 
-  </div>
 
-    </div>
-  )
-}
-
-export default SectionWrapper(Works, "")
+export default SectionWrapper(Works, "");

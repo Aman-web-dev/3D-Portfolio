@@ -6,7 +6,7 @@ import  SectionWrapper  from '../assets/hof/index';
 import Styles from '../Styles';
   import {Services} from '../constants/index';
   import {fadeIn, textVariant} from '../utils/motion'
-
+import Tech from './Tech';
 
 
 
@@ -14,7 +14,7 @@ import Styles from '../Styles';
 
     return(
  
-       <Tilt className="xs:w-[250px] w-full">
+       <Tilt className="xs:w-[250px]  w-full">
       <motion.div     variants={fadeIn("right", "spring",0.5  ,0.75 ) } className="w-full green-pink-gradient p-[1px] rounded-[20px]">
 
          
@@ -68,7 +68,7 @@ class About extends React.Component {
     </motion.div>
 
 
-    <motion.p
+    <p
     variants={fadeIn("", "",0.1, 1 ) }
     className="mt-4 text-secondary text-[17px]  max-w-3xl flex felx-col justify-content-center text-center align-center m-auto p-[20px]  leading-[30px]"
     >
@@ -85,7 +85,7 @@ class About extends React.Component {
 
 
 
-    </motion.p>
+    </p>
 
 
 
@@ -98,6 +98,7 @@ class About extends React.Component {
 
 
     ) )}
+
 
 
 

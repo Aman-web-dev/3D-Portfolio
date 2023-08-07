@@ -196,6 +196,80 @@ export const Projects = [
     image: portfolio,
     source_code_link: "https://github.com/Aman-web-dev/3D-Portfolio",
   },
+
+  {
+    name: "Admins Frontend",
+    description:
+      "Empowering e-commerce growth with real-time insights. Track sales, revenue, customers & more on our interactive Admin site",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+
+    ],
+    image: authApp,
+    source_code_link: "https://github.com/Aman-web-dev/Assignment",
+  },
+
+
+  {
+    name: "Adrian's Portfolio",
+    description:
+      "Discover the captivating world of an Instagram model's talents & works on a stunning Next.js portfolio website. A visual feast awaits!",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+
+    ],
+    image: authApp,
+    source_code_link: "https://github.com/Aman-web-dev/Aesthetic-Portfolio",
+  },
+
+
+  {
+    name: "Admins TOIF",
+    description:
+      "Empowering youth through technology! Our MERN stack Next.js admin app enables secure user-based login, effortlessly managing vast youth-focused data. Join us in shaping a brighter future! 🌟 #YouthEmpowerment #Nextjs #MERNstack",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: authApp,
+    source_code_link: "https://github.com/Aman-web-dev/Admins-TOIF",
+  },
+
+
+
   {
     name: "User Authentication",
     description:
@@ -229,6 +303,10 @@ export const navLinks = [
     title: "About",
   },
   {
+    id:"tech",
+    title:"Tech"
+  },
+  {
     id: "work",
     title: "Work",
   },
@@ -236,4 +314,9 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "experience",
+    title: "Experience",
+  },
+  
 ];
