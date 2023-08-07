@@ -7,8 +7,6 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
-    <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-
     <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${Styles .paddingX} flex flex-row items-start gap-5`}
@@ -71,7 +69,6 @@ const Hero = () => {
 
      </div>
     </section>
-    </div>
   );
 };
 

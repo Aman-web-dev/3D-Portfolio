@@ -15,7 +15,8 @@ import Tech from './Tech';
     return(
  
        <Tilt className="xs:w-[250px]  w-full">
-      <motion.div     variants={fadeIn("right", "spring",0.5  ,0.75 ) } className="w-full green-pink-gradient p-[1px] rounded-[20px]">
+      <div  
+          className="w-full green-pink-gradient p-[1px] rounded-[20px]">
 
          
 
@@ -29,7 +30,7 @@ import Tech from './Tech';
         </div>
 
 
-      </motion.div>
+      </div>
       
        </Tilt>
        
@@ -57,7 +58,7 @@ class About extends React.Component {
     
     
     <>   
-    <motion.div className='text-center flex flex-col'>
+    <div className='text-center flex flex-col'>
    <p className={Styles.sectionSubText}>Introduction</p>
 
 
@@ -65,7 +66,7 @@ class About extends React.Component {
 
 
 
-    </motion.div>
+    </div>
 
 
     <p

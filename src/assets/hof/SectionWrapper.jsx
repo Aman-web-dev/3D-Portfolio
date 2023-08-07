@@ -14,7 +14,7 @@ function HOC(){
     return(
 
 
-        <motion.section
+        <section
         
             variants={staggerContainer()}
 
@@ -34,7 +34,7 @@ function HOC(){
              </span>
 
             <Component/>
-        </motion.section>
+        </section>
     )   
 }
 
