@@ -31,6 +31,9 @@ import foodPage from "./foodPage.png";
 import authApp from "./auth-app.png";
 import portfolio from "./portfolio.png";
 import express from "./express.png";
+import adrian from "./adrian.png"
+import admin from "./admin.png"
+import adminToif from "./adminTOIF.png"
 
 
 export {
@@ -62,5 +65,8 @@ export {
   foodPage,
   authApp,
   portfolio,
+  adrian,
+  admin,
+  adminToif
   
 };

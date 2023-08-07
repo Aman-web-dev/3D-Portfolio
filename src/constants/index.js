@@ -19,6 +19,9 @@ import {
   portfolio,
   github,
   express,
+  adrian,
+  admin,
+adminToif
 } from "../assets";
 
 
@@ -145,32 +148,26 @@ export const Projects = [
     image: news,
     source_code_link: "https://github.com/Aman-web-dev/News-App",
   },
+
   {
-    name: "Foodie",
+    name: "Adrian's Portfolio",
     description:
-      "Indulge in a seamless food ordering experience with our cutting-edge full stack web app. Enjoy modern features like a user-friendly cart system and instant 'Order Now' functionality, satisfying your cravings in just a few clicks.",
+      "Discover the captivating world of an Instagram model's talents & works on a stunning Next.js portfolio website. A visual feast awaits!",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "MongoDB",
+        name: "Next.js",
         color: "green-text-gradient",
-      },
-      {
-        name: "Express.JS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "NodeJS",
-        color: "pink-text-gradient",
       },
 
     ],
-    image: foodPage,
-    source_code_link: "https://github.com/Aman-web-dev/Foodie",
+    image: adrian,
+    source_code_link: "https://github.com/Aman-web-dev/Aesthetic-Portfolio",
   },
+
   {
     name: "Portfolio",
     description:
@@ -212,29 +209,11 @@ export const Projects = [
       },
 
     ],
-    image: authApp,
+    image: admin,
     source_code_link: "https://github.com/Aman-web-dev/Assignment",
   },
 
 
-  {
-    name: "Adrian's Portfolio",
-    description:
-      "Discover the captivating world of an Instagram model's talents & works on a stunning Next.js portfolio website. A visual feast awaits!",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Next.js",
-        color: "green-text-gradient",
-      },
-
-    ],
-    image: authApp,
-    source_code_link: "https://github.com/Aman-web-dev/Aesthetic-Portfolio",
-  },
 
 
   {
@@ -264,10 +243,36 @@ export const Projects = [
       },
 
     ],
-    image: authApp,
+    image: adminToif,
     source_code_link: "https://github.com/Aman-web-dev/Admins-TOIF",
   },
 
+  {
+    name: "Foodie",
+    description:
+      "Indulge in a seamless food ordering experience with our cutting-edge full stack web app. Enjoy modern features like a user-friendly cart system and instant 'Order Now' functionality, satisfying your cravings in just a few clicks.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+
+    ],
+    image: foodPage,
+    source_code_link: "https://github.com/Aman-web-dev/Foodie",
+  },
 
 
   {
