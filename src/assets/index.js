@@ -25,6 +25,7 @@ import threejs from "./tech/threejs.svg";
 
 
 import ZielFintechLogo from "./company/zielFintechLogo.png";
+import rwfLogo from "./company/rwf.jpeg"
 import Ideal from "./company/Ideal.png"
 
 import foodPage from "./foodPage.png";
@@ -34,6 +35,7 @@ import express from "./express.png";
 import adrian from "./adrian.png"
 import admin from "./admin.png"
 import adminToif from "./adminTOIF.png"
+import renukiran from '../assets/renukiran.png'
 
 
 export {
@@ -60,10 +62,12 @@ export {
 
 
   ZielFintechLogo,
+  rwfLogo,
   Ideal,
   news,
   foodPage,
   authApp,
+  renukiran,
   portfolio,
   adrian,
   admin,

@@ -19,8 +19,10 @@ import {
   portfolio,
   github,
   express,
+  rwfLogo,
   adrian,
   admin,
+  renukiran,
 adminToif
 } from "../assets";
 
@@ -96,6 +98,50 @@ export const Technologies = [
 ];
 
 export const experiences = [
+
+
+  // {
+  //   title: "Fresher (Open To work)",
+  //   company_name: "Fresh Man",
+  //   icon: Ideal,
+  //   iconBg: "#FFFFFF",
+  //   date: "Currently...",
+  //   points: [
+  //     "Looking For an opportunity To Show My skills on realtime Industry Based Projects.",
+  //     "Will Be Delighted To work as Front End Intern and Learn new Skillls Under Guidance of Industry Professionals.",
+
+  //   ],
+  // },
+
+
+  {
+    title: "Web Dev Intern",
+    company_name: "Speak up Learning Management (SULS)",
+    icon: rwfLogo,
+    iconBg: "#ffffff",
+    date: "November 2023- Currently",
+    points: [
+      "Built Official Site Of SULS",
+      "Managed And Took Care Of The Websites Analytics and Bugs ",
+      "Working On Builidng a LMS to help users Learn Foreign Language With a button click",
+
+    ],
+  },
+
+
+  {
+    title: "Web Dev Intern",
+    company_name: "Renukiran Welfare Foundation",
+    icon: rwfLogo,
+    iconBg: "#ffffff",
+    date: "September 2023- November 2023",
+    points: [
+      "I have built Official website Of Renukiran Welfare Foundation",
+      "Managed And Took Care Of The Websites Analytics and Bugs",
+      "Coordinated with Social Media Team To enhance SEO of The Website ",
+
+    ],
+  },
   {
     title: "Intern At Operations",
     company_name: "Ziel Fintech",
@@ -109,24 +155,36 @@ export const experiences = [
 
     ],
   },
-  {
-    title: "Fresher (Open To work)",
-    company_name: "Fresh Man",
-    icon: Ideal,
-    iconBg: "#FFFFFF",
-    date: "Currently...",
-    points: [
-      "Looking For an opportunity To Show My skills on realtime Industry Based Projects.",
-      "Will Be Delighted To work as Front End Intern and Learn new Skillls Under Guidance of Industry Professionals.",
-
-    ],
-  },
+ 
 
 
 ];
 
 
 export const Projects = [
+
+
+  {
+    name: "Renukiran Welfare Foundation",
+    description:
+      "This is Official Webiste Of Renukiran Welfare Foundation Made On The Next-13 This Website Contains the Data Of Renukiran",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "News-API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: renukiran,
+    source_code_link: "https://github.com/Aman-web-dev/News-App",
+  },
   {
     name: "News App",
     description:
