@@ -11,6 +11,9 @@ import {
   nodejs,
   mongodb,
   git,
+
+
+
   ZielFintechLogo,
   Ideal,
   news,
@@ -66,6 +69,7 @@ export const Technologies = [
     name: "React JS",
     icon: reactjs,
   },
+
   {
     name: "Node Js",
     icon: nodejs,
@@ -100,18 +104,18 @@ export const Technologies = [
 export const experiences = [
 
 
-  // {
-  //   title: "Fresher (Open To work)",
-  //   company_name: "Fresh Man",
-  //   icon: Ideal,
-  //   iconBg: "#FFFFFF",
-  //   date: "Currently...",
-  //   points: [
-  //     "Looking For an opportunity To Show My skills on realtime Industry Based Projects.",
-  //     "Will Be Delighted To work as Front End Intern and Learn new Skillls Under Guidance of Industry Professionals.",
-
-  //   ],
-  // },
+  {
+    title: "Full Stack Intern",
+    company_name: "Yardstick AI",
+    icon: "https://www.yardstick.live/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyardsticklive_logo.eb146ebf.png&w=128&q=75",
+    iconBg: "#030712",
+    date: "May 2024 - Currently",
+    points: [
+      "Integrated AI solutions in web Apps",
+      "Created Full stack web Apps to Help business automate their Operations",
+      // "Working On Builidng a LMS to help users Learn Foreign Language With a button click",
+    ],
+  },
 
 
   {
@@ -119,7 +123,7 @@ export const experiences = [
     company_name: "Speak up Learning Management (SULS)",
     icon: rwfLogo,
     iconBg: "#ffffff",
-    date: "November 2023- Currently",
+    date: "November 2023- February -2024 ",
     points: [
       "Built Official Site Of SULS",
       "Managed And Took Care Of The Websites Analytics and Bugs ",
@@ -366,20 +370,22 @@ export const navLinks = [
     title: "About",
   },
   {
+    id: "experience",
+    title: "Experience",
+  },  
+  {
     id:"tech",
     title:"Tech"
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
+
   {
     id: "contact",
     title: "Contact",
   },
-  {
-    id: "experience",
-    title: "Experience",
-  },
+
   
 ];

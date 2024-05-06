@@ -14,16 +14,22 @@ const  App=()=> {
 
 
     <Navbar/>
+    <Hero/> 
+    <About/> 
+    <Experience/>
+    <Tech/>
+    <Works/>
+    <Contact/>
 
     <Routes>
 
-        <Route path="/" element={ <Hero/> } />
+        {/* <Route path="/" element={ } /> */}
       
-        <Route  path="about" element={<About/> } />
-        <Route  path="experience" element= {<Experience/>} />
-        <Route  path="tech" element={<Tech/>} />
-        <Route  path="work" element={<Works/>} />
-        <Route  path="contact" element={<Contact/>} />
+        {/* <Route  path="about" element={} />
+        <Route  path="experience" element= {} />
+        <Route  path="tech" element={} />
+        <Route  path="work" element={} />
+        <Route  path="contact" element={} /> */}
 
 
 
