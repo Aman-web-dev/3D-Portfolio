@@ -44,15 +44,14 @@ class About extends React.Component {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px]  max-w-3xl flex felx-col justify-content-center text-center align-center m-auto p-[20px]  leading-[30px]"
         >
-          Hi my name is Aman i am an Ui Developer with Experience in Html, Css,
-          Js, React JS, Bootstrap, Tailwind CSS “I have just over a year of
-          experience as a junior software engineer with Above Mentioned
+          Hi my name is Aman i am an Fullstack Developer with Experience in  React JS,Next js,Node js,express, postgres , Bootstrap, Tailwind CSS I have just two years of
+          experience as a Intern software engineer with Above Mentioned
           Technology. In my short time there, I've already contributed to over a
           dozen projects and Deployed several website that are being used by
-          myself sometimes.
+          a users and companies.
         </p>
 
-        <div className="gap-10 flex flex-wrap gap-10 mt-20 m-auto align-center mx-70 justify ">
+        <div className="gap-10 flex flex-wrap  mt-20 m-auto align-center mx-70 justify ">
           {Services.map((service, index, title) => (
             <ServiceCard
               key={service.title}

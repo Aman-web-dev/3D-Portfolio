@@ -79,6 +79,9 @@ const Contact = () => {
       >
         <p className={Styles.sectionSubText}>Get in touch</p>
         <h3 className={Styles.sectionHeadText}>Contact.</h3>
+        <p className=""><span className=" font-bold">Email:{"   "}</span>amanzhx1234@gmail.com</p>
+        <p className=""><span className=" font-bold">Phone:{"   "}</span>+91 9250540198</p>
+
 
         <form
           ref={formRef}

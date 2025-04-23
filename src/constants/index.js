@@ -11,9 +11,6 @@ import {
   nodejs,
   mongodb,
   git,
-
-
-
   ZielFintechLogo,
   Ideal,
   news,
@@ -26,10 +23,10 @@ import {
   adrian,
   admin,
   renukiran,
-adminToif
+  adminToif,
+  robin,
+  devlib,
 } from "../assets";
-
-
 
 export const Services = [
   {
@@ -64,7 +61,6 @@ export const Technologies = [
     icon: javascript,
   },
 
-
   {
     name: "React JS",
     icon: reactjs,
@@ -88,7 +84,6 @@ export const Technologies = [
     icon: tailwind,
   },
 
-
   {
     name: "git",
     icon: git,
@@ -98,18 +93,15 @@ export const Technologies = [
     name: "Git Hub",
     icon: github,
   },
-
 ];
 
 export const experiences = [
-
-
   {
-    title: "Full Stack Intern",
-    company_name: "Yardstick AI",
-    icon: "https://www.yardstick.live/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fyardsticklive_logo.eb146ebf.png&w=128&q=75",
+    title: "Node js Intern",
+    company_name: "Warewe",
+    icon: "https://warewe.com/wp-content/themes/warewe-new/assets/img/logo.png",
     iconBg: "#030712",
-    date: "May 2024 - Currently",
+    date: "May 2025 - Currently",
     points: [
       "Integrated AI solutions in web Apps",
       "Created Full stack web Apps to Help business automate their Operations",
@@ -117,6 +109,18 @@ export const experiences = [
     ],
   },
 
+  {
+    title: "Full Stack Intern",
+    company_name: "Yardstick AI",
+    icon: "https://www.yardstick.live/_next/image?url=%2Fimages%2Flogo%2Fyardsticklive_logo.png&w=128&q=75",
+    iconBg: "#030712",
+    date: "May 2024 - Jan 2025",
+    points: [
+      "Integrated AI solutions in web Apps",
+      "Created Full stack web Apps to Help business automate their Operations",
+      // "Working On Builidng a LMS to help users Learn Foreign Language With a button click",
+    ],
+  },
 
   {
     title: "Web Dev Intern",
@@ -128,10 +132,8 @@ export const experiences = [
       "Built Official Site Of SULS",
       "Managed And Took Care Of The Websites Analytics and Bugs ",
       "Working On Builidng a LMS to help users Learn Foreign Language With a button click",
-
     ],
   },
-
 
   {
     title: "Web Dev Intern",
@@ -143,7 +145,6 @@ export const experiences = [
       "I have built Official website Of Renukiran Welfare Foundation",
       "Managed And Took Care Of The Websites Analytics and Bugs",
       "Coordinated with Social Media Team To enhance SEO of The Website ",
-
     ],
   },
   {
@@ -156,18 +157,53 @@ export const experiences = [
       "I Worked as an Intern at Z-first ",
       "Managed MIS report and kept a Record of  Loan Disbursement Summary",
       "Coordinated with a Team of More than 100 peoples To Disburse Loan and Managed Nach Updation.",
-
     ],
   },
- 
-
-
 ];
 
-
 export const Projects = [
-
-
+  {
+    name: "Robin",
+    description:
+      "Robin is the next-generation API platform for developers to design, test, and document APIs faster and more efficiently.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api-testing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: robin,
+    source_code_link: "https://robin-rho.vercel.app/",
+  },
+  {
+    name: "Devlib",
+    description:
+      "Unlock the power of seamless coding with DevLib - where precision meets efficiency. No more time wasted in the pursuit of perfect resources; DevLib has got your back, empowering developers with a world of possibilities at their fingertips.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rest-api",
+        color: "green-text-gradient",
+      },
+      {
+        name: "api-testing",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: devlib,
+    source_code_link: "https://robin-rho.vercel.app/",
+  },
   {
     name: "Renukiran Welfare Foundation",
     description:
@@ -224,7 +260,6 @@ export const Projects = [
         name: "Next.js",
         color: "green-text-gradient",
       },
-
     ],
     image: adrian,
     source_code_link: "https://github.com/Aman-web-dev/Aesthetic-Portfolio",
@@ -269,14 +304,10 @@ export const Projects = [
         name: "Next.js",
         color: "green-text-gradient",
       },
-
     ],
     image: admin,
     source_code_link: "https://github.com/Aman-web-dev/Assignment",
   },
-
-
-
 
   {
     name: "Admins TOIF",
@@ -303,7 +334,6 @@ export const Projects = [
         name: "NodeJS",
         color: "pink-text-gradient",
       },
-
     ],
     image: adminToif,
     source_code_link: "https://github.com/Aman-web-dev/Admins-TOIF",
@@ -330,12 +360,10 @@ export const Projects = [
         name: "NodeJS",
         color: "pink-text-gradient",
       },
-
     ],
     image: foodPage,
     source_code_link: "https://github.com/Aman-web-dev/Foodie",
   },
-
 
   {
     name: "User Authentication",
@@ -372,10 +400,10 @@ export const navLinks = [
   {
     id: "experience",
     title: "Experience",
-  },  
+  },
   {
-    id:"tech",
-    title:"Tech"
+    id: "tech",
+    title: "Tech",
   },
   {
     id: "projects",
@@ -386,6 +414,4 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
-
-  
 ];
