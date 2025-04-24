@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Code, Github, Linkedin, Mail, Layers, Stars } from 'lucide-react';
+import { Code, Github, Linkedin, Mail, Layers, Stars ,Twitter} from 'lucide-react';
 
 export default function PortfolioHero() {
   const [scrollY, setScrollY] = useState(0);
@@ -172,14 +172,17 @@ export default function PortfolioHero() {
       
       {/* Social Links */}
       <div className="absolute bottom-8 flex gap-6 z-10">
-        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+        <a href="https://github.com/Aman-web-dev" target='_blank' className="text-gray-400 hover:text-white transition-colors">
           <Github size={20} />
         </a>
-        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+        <a href="https://www.linkedin.com/in/aman-ku/" target='_blank' className="text-gray-400 hover:text-white transition-colors">
           <Linkedin size={20} />
         </a>
-        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+        <a href="mailto:amanzhx1234@gmail.com" target='_blank' className="text-gray-400 hover:text-white transition-colors">
           <Mail size={20} />
+        </a>
+        <a href="https://x.com/Aman29615102" target='_blank' className="text-gray-400 hover:text-white transition-colors">
+          <Twitter size={20} />
         </a>
       </div>
       
